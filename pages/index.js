@@ -11,7 +11,9 @@ export default function Home() {
         products that deliver better user experiences through clean and
         responsive designs and tackle challenges.
       </p>
-      <SnsLinks />
+      <div className="mt-5">
+        <SnsLinks />
+      </div>
     </div>
   );
 }

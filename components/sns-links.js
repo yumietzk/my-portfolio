@@ -5,28 +5,30 @@ const links = [
   {
     name: "Github",
     url: "https://github.com/yumietzk",
-    icon: <FaGithub className="h-6 w-6 text-text-color-2" />,
+    icon: (
+      <FaGithub className="h-6 w-6 text-text-color-2 transition duration-300 hover:text-accent-color-1" />
+    ),
   },
   {
     name: "LinkedIn",
     url: "https://www.linkedin.com/in/yumie-tsuzuki/",
-    icon: <FaLinkedin className="h-6 w-6 text-text-color-2" />,
+    icon: (
+      <FaLinkedin className="h-6 w-6 text-text-color-2 transition duration-300 hover:text-accent-color-1" />
+    ),
   },
 ];
 
 function SnsLinks() {
   return (
-    <div className="mt-5">
-      <ul className="list-none flex items-center space-x-5">
-        {links.map((item) => (
-          <li key={item.name}>
-            <Link href={item.url} target="_blank">
-              {item.icon}
-            </Link>
-          </li>
-        ))}
-      </ul>
-    </div>
+    <ul className="list-none flex items-center space-x-6">
+      {links.map((item) => (
+        <li key={item.name}>
+          <Link href={item.url} target="_blank">
+            {item.icon}
+          </Link>
+        </li>
+      ))}
+    </ul>
   );
 }
 

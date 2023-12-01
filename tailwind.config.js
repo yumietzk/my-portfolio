@@ -13,7 +13,7 @@ module.exports = {
         "bg-color-1": "#fff",
         "bg-color-2": "#f3f4f6",
         "text-color-1": "#0a0a0a",
-        "text-color-2": "#a3a3a3",
+        "text-color-2": "#474747",
         "accent-color-1": "#fb7185",
         "accent-color-2": "#f43f5e",
         "border-color": "#f3f4f6",
@@ -25,3 +25,6 @@ module.exports = {
   },
   plugins: [],
 };
+
+// 333333
+//

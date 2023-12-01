@@ -7,8 +7,8 @@ export default function Home() {
         Software Engineer, sushi lover, soccer fan.
       </h1>
       <p className="mt-5 text-text-color-2">
-        I'm Yumie, a software engineer based in Toronto, Canada. I like to build
-        products that deliver better user experiences through clean and
+        I&apos;m Yumie, a software engineer based in Toronto, Canada. I like to
+        build products that deliver better user experiences through clean and
         responsive designs and tackle challenges.
       </p>
       <div className="mt-5">

@@ -1,13 +1,18 @@
 import ProfileImage from "../components/profile-image";
+import Skills from "../components/skills";
 import Work from "../components/work";
 
 function about() {
   return (
     <div>
       <div className="flex items-center">
-        <h1 className="flex-1 text-4xl font-semibold mr-2">
-          I'm Yumie. I'm originally from Japan, and currently live in Toronto.
-        </h1>
+        <div className="flex-1 mr-2">
+          <h1 className="text-4xl font-semibold mb-5">
+            I&apos;m Yumie. I&apos;m originally from Japan, and currently live
+            in Toronto.
+          </h1>
+          <Skills />
+        </div>
 
         <div className="w-56">
           <ProfileImage />
@@ -28,12 +33,12 @@ function about() {
             courses, YouTube videos and tons of googling. I fell in love with
             programming quickly and I knew pursuing this passion was the right
             choice. I had ZERO knowledge about HTML and CSS, so I remember how
-            excited I was when I first rendered "Hello World!" using HTML and
-            designed with CSS.
+            excited I was when I first rendered &quot;Hello World!&quot; using
+            HTML and designed with CSS.
           </p>
           <p>
-            I'm a hardworker, ambitious and coorporative. I always strive to
-            learn more, improve my skills and try to communicate well with
+            I&apos;m a hardworker, ambitious and coorporative. I always strive
+            to learn more, improve my skills and try to communicate well with
             people to make things better.
           </p>
           <p>

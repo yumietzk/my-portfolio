@@ -20,7 +20,7 @@ function about() {
       </div>
 
       <div className="mt-14 text-text-color-2 flex">
-        <div className="space-y-5 mr-3">
+        <div className="space-y-5 mr-4">
           <p>
             After working as a system engineer for nearly 4 years which I landed
             from a different background called international politics I majored

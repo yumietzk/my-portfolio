@@ -13,7 +13,7 @@ function Layout({ children }) {
       className={`${openSans.variable} font-sans w-full min-h-screen bg-bg-color-1 text-text-color-1 py-6 flex flex-col`}
     >
       <Header />
-      <main className="flex-1 px-24 flex items-center">{children}</main>
+      <main className="flex-1 p-24">{children}</main>
       <Footer />
     </div>
   );

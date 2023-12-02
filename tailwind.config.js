@@ -30,6 +30,10 @@ module.exports = {
         "bottom-right": "100px 120px",
         "bottom-left": "65px 95px",
       },
+      backgroundImage: {
+        "project-tracker": "url('/public/project-tracker.png')",
+        "footer-texture": "url('/img/footer-texture.png')",
+      },
     },
   },
   plugins: [],

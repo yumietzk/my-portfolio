@@ -7,7 +7,8 @@ function Header() {
     <header className="flex items-center justify-between px-24">
       <Logo />
       <Navbar />
-      <ModeButton />
+      {/* <ModeButton /> */}
+      <button></button>
     </header>
   );
 }

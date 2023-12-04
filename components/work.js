@@ -18,8 +18,8 @@ const workData = [
 
 function Work() {
   return (
-    <div className="h-max border border-border-color px-4 py-5 rounded-md shadow-sm">
-      <h3 className="flex items-center pb-4 border-b border-border-color">
+    <div className="h-max border border-border-color-1 px-4 py-5 rounded-md shadow-sm">
+      <h3 className="flex items-center pb-4 border-b border-border-color-1">
         <CiDesktop className="mr-2 h-6 w-6 text-text-color-2" />
         Work
       </h3>

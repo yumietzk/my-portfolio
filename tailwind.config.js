@@ -18,7 +18,8 @@ module.exports = {
         "text-color-3": "#858585",
         "accent-color-1": "#fb7185",
         "accent-color-2": "#f43f5e",
-        "border-color": "#f3f4f6",
+        "border-color-1": "#f3f4f6",
+        "border-color-2": "#e5e7eb",
       },
       fontFamily: {
         sans: ["var(--font-openSans)"],

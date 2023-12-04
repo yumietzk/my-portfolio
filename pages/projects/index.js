@@ -46,7 +46,7 @@ function projects() {
         {projectsData.map((item) => (
           <div
             key={item.title}
-            className="border border-border-color px-5 py-7 rounded-lg shadow-sm"
+            className="border border-border-color-1 px-5 py-7 rounded-lg shadow-sm"
           >
             <div className="inline-block mb-6 w-11 h-11">
               {item.icon ? (

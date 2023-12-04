@@ -1,31 +1,37 @@
 import Image from "next/image";
-import projectTrackerImg from "../public/project-tracker.png";
-import popcornClubImg from "../public/popcorn-club.png";
-import restaurantSearchImg from "../public/restaurant-search.png";
+import { CiImageOn } from "react-icons/ci";
+import projectTrackerIcon from "../../public/project-tracker/icon.png";
+import popcornClubIcon from "../../public/popcorn-club/icon.png";
+import restaurantSearchIcon from "../../public/restaurant-search/icon.png";
+import Link from "next/link";
 
 const projectsData = [
   {
-    icon: projectTrackerImg,
+    icon: "",
     title: "Remotely",
     description:
       "Eliminate redundancy in your job search and land your dream job.",
+    url: "remotely",
   },
   {
-    icon: projectTrackerImg,
+    icon: projectTrackerIcon,
     title: "Project Tracker",
     description: "Elevate your project management experience with this app.",
+    url: "projectTracker",
   },
   {
-    icon: popcornClubImg,
+    icon: popcornClubIcon,
     title: "Popcorn Club",
     description:
       "This app will take you to dive into the world of entertainment.",
+    url: "popcornClub",
   },
   {
-    icon: restaurantSearchImg,
+    icon: restaurantSearchIcon,
     title: "Restaurant Search",
     description:
       "Explore and enjoy new dishes with this user-friendly restaurant search app.",
+    url: "restaurantSearch",
   },
 ];
 
@@ -43,17 +49,24 @@ function projects() {
             className="border border-border-color px-5 py-7 rounded-lg shadow-sm"
           >
             <div className="inline-block mb-6 w-11 h-11">
-              <Image
-                className="w-full h-full object-cover rounded-full"
-                src={item.icon}
-                alt={item.title}
-              />
+              {item.icon ? (
+                <Image
+                  className="w-full h-full object-cover rounded-full outline outline-offset-4 outline-bg-color-3 shadow-sm"
+                  src={item.icon}
+                  alt={item.title}
+                />
+              ) : (
+                <CiImageOn className="w-full h-full text-text-color-3 object-cover rounded-full outline outline-offset-4 outline-bg-color-3 shadow-sm" />
+              )}
             </div>
             <h3 className="font-medium mb-2.5">{item.title}</h3>
             <p className="text-sm text-text-color-2 mb-5">{item.description}</p>
-            <button className="text-sm bg-bg-color-2 px-4 py-3 rounded-md transition duration-300 hover:bg-bg-color-3">
+            <Link
+              href={`/projects/${item.url}`}
+              className="text-sm bg-bg-color-2 px-4 py-3 rounded-md transition duration-300 hover:bg-bg-color-3"
+            >
               More details
-            </button>
+            </Link>
           </div>
         ))}
       </div>

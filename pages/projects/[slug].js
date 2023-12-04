@@ -32,7 +32,7 @@ const projectDetail = {
     title: "Popcorn Club",
     image: popcornClubImg,
     description:
-      "A movie library built with React JS. Allows users to search movies and TV shows, get data by different genres, sort by categories, and see movies and TV shows' details. Users can also save their favorite movies and TV shows after signed in.",
+      "A movie and TV show library built with React JS. Allows users to search movies and TV shows, get data by different genres, sort by categories, and see movies and TV shows' details. Users can also save their favorite movies and TV shows after signed in.",
     stack: "React, Redux, React Router, Redux Thunk, CSS Modules, Netlify",
     url: "popcorn-club.netlify.app",
     github: "popcorn-club",
@@ -81,7 +81,7 @@ function ProjectPage() {
         <div className="text-text-color-3 text-sm">
           {url && (
             <Link
-              className="flex items-center mb-1.5 transition duration-300 hover:text-accent-color-1"
+              className="flex items-center mb-1.5 transition duration-300 hover:text-text-color-1"
               href={`https://${url}`}
               target="_blank"
             >
@@ -90,7 +90,7 @@ function ProjectPage() {
             </Link>
           )}
           <Link
-            className="flex items-center transition duration-300 hover:text-accent-color-1"
+            className="flex items-center transition duration-300 hover:text-text-color-1"
             href={`https://github.com/yumietzk/${github}`}
             target="_blank"
           >

@@ -2,8 +2,8 @@ import SnsLinks from "../components/sns-links";
 
 export default function Home() {
   return (
-    <div className="w-9/12">
-      <h1 className="mt-4 text-5xl font-semibold tracking-wide">
+    <div className="w-8/12 absolute top-1/2 -translate-y-2/4">
+      <h1 className="text-5xl font-semibold tracking-wide">
         Software Engineer, sushi lover, soccer fan.
       </h1>
       <p className="mt-5 text-text-color-2">

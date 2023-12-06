@@ -50,10 +50,10 @@ const projectDetail = {
 
 function ProjectPage() {
   const router = useRouter();
-  const project = router.query.slug;
+  const project = router?.query?.slug;
 
   const { title, image, description, stack, url, github } =
-    projectDetail[project];
+    projectDetail[project || "remotely"];
 
   return (
     <div className="max-w-7xl mx-auto">

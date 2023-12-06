@@ -21,7 +21,7 @@ function Layout({ children }) {
           isMobileMenuOpen={isMobileMenuOpen}
           setIsMobileMenuOpen={setIsMobileMenuOpen}
         />
-        <main className="flex-1 relative px-4 sm:px-7 md:px-12 pt-28 pb-16 lg:pt-36 lg:pb-24 overflow-y-auto">
+        <main className="flex-1 relative px-4 sm:px-7 md:px-12 lg:px-24 pt-28 pb-16 lg:pt-36 lg:pb-24 overflow-y-auto">
           {children}
         </main>
         <Footer />

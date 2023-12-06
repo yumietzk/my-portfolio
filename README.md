@@ -1,6 +1,6 @@
 # My Portfolio
 
-[Visit here](https://yumietsuzuki.netlify.app/)
+[Visit here](https://yumietsuzuki.vercel.app/)
 
 My portfolio website was built with
 

@@ -39,3 +39,8 @@ module.exports = {
   },
   plugins: [],
 };
+
+// sm: min-width: 640px // phone
+// md: 768px  // tablet
+// lg: 1024px // tablet
+// xl: 1280px

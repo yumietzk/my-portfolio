@@ -22,61 +22,85 @@ import {
 const skills = [
   {
     name: "React.js",
-    icon: <FaReact className="h-5 w-5 text-accent-color-2" />,
+    icon: <FaReact className="h-4 w-4 md:h-5 md:w-5 text-accent-color-2" />,
   },
   {
     name: "JavaScript",
-    icon: <DiJavascript1 className="h-5 w-5 text-accent-color-2" />,
+    icon: (
+      <DiJavascript1 className="h-4 w-4 md:h-5 md:w-5 text-accent-color-2" />
+    ),
   },
-  { name: "HTML", icon: <FaHtml5 className="h-5 w-5 text-accent-color-2" /> },
-  { name: "CSS", icon: <FaCss3Alt className="h-5 w-5 text-accent-color-2" /> },
-  { name: "Sass", icon: <FaSass className="h-5 w-5 text-accent-color-2" /> },
+  {
+    name: "HTML",
+    icon: <FaHtml5 className="h-4 w-4 md:h-5 md:w-5 text-accent-color-2" />,
+  },
+  {
+    name: "CSS",
+    icon: <FaCss3Alt className="h-4 w-4 md:h-5 md:w-5 text-accent-color-2" />,
+  },
+  {
+    name: "Sass",
+    icon: <FaSass className="h-4 w-4 md:h-5 md:w-5 text-accent-color-2" />,
+  },
   {
     name: "Next.js",
-    icon: <SiNextdotjs className="h-5 w-5 text-accent-color-2" />,
+    icon: <SiNextdotjs className="h-4 w-4 md:h-5 md:w-5 text-accent-color-2" />,
   },
   {
     name: "Node.js",
-    icon: <FaNodeJs className="h-5 w-5 text-accent-color-2" />,
+    icon: <FaNodeJs className="h-4 w-4 md:h-5 md:w-5 text-accent-color-2" />,
   },
   {
     name: "Firebase",
-    icon: <SiFirebase className="h-5 w-5 text-accent-color-2" />,
+    icon: <SiFirebase className="h-4 w-4 md:h-5 md:w-5 text-accent-color-2" />,
   },
-  { name: "Redux", icon: <SiRedux className="h-5 w-5 text-accent-color-2" /> },
+  {
+    name: "Redux",
+    icon: <SiRedux className="h-4 w-4 md:h-5 md:w-5 text-accent-color-2" />,
+  },
   {
     name: "Express",
-    icon: <SiExpress className="h-5 w-5 text-accent-color-2" />,
+    icon: <SiExpress className="h-4 w-4 md:h-5 md:w-5 text-accent-color-2" />,
   },
   {
     name: "MongoDB",
-    icon: <DiMongodb className="h-5 w-5 text-accent-color-2" />,
+    icon: <DiMongodb className="h-4 w-4 md:h-5 md:w-5 text-accent-color-2" />,
   },
   {
     name: "PostgreSQL",
-    icon: <SiPostgresql className="h-5 w-5 text-accent-color-2" />,
+    icon: (
+      <SiPostgresql className="h-4 w-4 md:h-5 md:w-5 text-accent-color-2" />
+    ),
   },
   {
     name: "Gatsby JS",
-    icon: <SiGatsby className="h-5 w-5 text-accent-color-2" />,
+    icon: <SiGatsby className="h-4 w-4 md:h-5 md:w-5 text-accent-color-2" />,
   },
   {
     name: "GraphQL",
-    icon: <SiGraphql className="h-5 w-5 text-accent-color-2" />,
+    icon: <SiGraphql className="h-4 w-4 md:h-5 md:w-5 text-accent-color-2" />,
   },
-  { name: "Jest", icon: <SiJest className="h-5 w-5 text-accent-color-2" /> },
+  {
+    name: "Jest",
+    icon: <SiJest className="h-4 w-4 md:h-5 md:w-5 text-accent-color-2" />,
+  },
   {
     name: "React Testing Library",
-    icon: <SiTestinglibrary className="h-5 w-5 text-accent-color-2" />,
+    icon: (
+      <SiTestinglibrary className="h-4 w-4 md:h-5 md:w-5 text-accent-color-2" />
+    ),
   },
-  { name: "Git", icon: <FaGit className="h-5 w-5 text-accent-color-2" /> },
+  {
+    name: "Git",
+    icon: <FaGit className="h-4 w-4 md:h-5 md:w-5 text-accent-color-2" />,
+  },
 ];
 
 function Skills() {
   return (
     <div>
       <p className="text-lg font-medium mb-1">Skills</p>
-      <div className="flex items-center space-x-2.5 flex-wrap">
+      <div className="flex items-center space-x-2.5 space-y-1 flex-wrap">
         {skills.map((item) => (
           <div key={item.name}>{item.icon}</div>
         ))}

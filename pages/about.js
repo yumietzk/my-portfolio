@@ -4,23 +4,23 @@ import Work from "../components/work";
 
 function about() {
   return (
-    <div>
-      <div className="flex items-center">
-        <div className="flex-1 mr-2">
-          <h1 className="text-4xl font-semibold mb-5">
+    <div className="max-w-7xl mx-auto">
+      <div className="flex flex-col-reverse md:flex-row md:items-center">
+        <div className="flex-1 md:mr-4 lg:mr-11">
+          <h1 className="text-3xl md:text-4xl font-semibold mb-5">
             I&apos;m Yumie. I&apos;m originally from Japan, and currently live
             in Toronto.
           </h1>
           <Skills />
         </div>
 
-        <div className="w-56">
+        <div className="w-56 mb-6 md:mb-0">
           <ProfileImage />
         </div>
       </div>
 
-      <div className="mt-14 text-text-color-2 flex">
-        <div className="space-y-5 mr-4">
+      <div className="mt-14 text-text-color-2 flex flex-col md:flex-row space-y-14 md:space-y-0">
+        <div className="space-y-8 md:mr-7 lg:mr-11 leading-loose">
           <p>
             After working as a system engineer for nearly 4 years which I landed
             from a different background called international politics I majored

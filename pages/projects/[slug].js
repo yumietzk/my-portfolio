@@ -56,15 +56,16 @@ function ProjectPage() {
     projectDetail[project];
 
   return (
-    <div>
+    <div className="max-w-7xl mx-auto">
       <div className="mb-12">
         <Link className="text-accent-color-1 mr-1" href="/projects">
           Projects
         </Link>{" "}
-        &gt; <span className="ml-1 text-xl font-medium">{title}</span>
+        &gt;{" "}
+        <span className="ml-1 text-lg md:text-xl font-medium">{title}</span>
       </div>
 
-      <div className="w-3/5 mx-auto text-text-color-2">
+      <div className="w-11/12 sm:w-4/5 md:w-3/5 mx-auto text-text-color-2">
         <Image
           className="w-full rounded-lg mb-10 shadow-sm"
           src={image || placeholderImg}

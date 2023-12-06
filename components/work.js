@@ -28,8 +28,8 @@ function Work() {
           {workData.map((item) => (
             <div key={item.company}>
               <p className="text-sm mb-0.5">{item.title}</p>
-              <div className="flex justify-between text-text-color-3 text-xs">
-                <p className="mr-6">{item.company}</p>
+              <div className="flex flex-col sm:flex-row sm:justify-between text-text-color-3 text-xs">
+                <p className="sm:mr-6">{item.company}</p>
                 <div className="text-end">
                   <p>{item.place}</p>
                   <p>{item.date}</p>

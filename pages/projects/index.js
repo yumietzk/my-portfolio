@@ -37,12 +37,12 @@ const projectsData = [
 
 function projects() {
   return (
-    <div>
-      <h2 className="mb-12 text-xl font-semibold">
+    <div className="max-w-7xl mx-auto">
+      <h2 className="mb-12 text-lg md:text-xl font-semibold">
         Please take a look at my projects!
       </h2>
 
-      <div className="w-full grid grid-cols-3 gap-x-7 gap-y-8">
+      <div className="w-full grid sm:grid-cols-2 md:grid-cols-3 gap-x-7 gap-y-8">
         {projectsData.map((item) => (
           <div
             key={item.title}

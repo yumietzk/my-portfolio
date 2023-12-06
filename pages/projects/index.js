@@ -1,8 +1,8 @@
 import Image from "next/image";
 import { CiImageOn } from "react-icons/ci";
-import projectTrackerIcon from "../../public/project-tracker/icon.png";
+// import projectTrackerIcon from "../../public/project-tracker/icon.png";
 import popcornClubIcon from "../../public/popcorn-club/icon.png";
-import restaurantSearchIcon from "../../public/restaurant-search/icon.png";
+// import restaurantSearchIcon from "../../public/restaurant-search/icon.png";
 import Link from "next/link";
 
 const projectsData = [
@@ -14,7 +14,7 @@ const projectsData = [
     url: "remotely",
   },
   {
-    icon: projectTrackerIcon,
+    icon: "",
     title: "Project Tracker",
     description: "Elevate your project management experience with this app.",
     url: "projectTracker",
@@ -27,7 +27,7 @@ const projectsData = [
     url: "popcornClub",
   },
   {
-    icon: restaurantSearchIcon,
+    icon: "",
     title: "Restaurant Search",
     description:
       "Explore and enjoy new dishes with this user-friendly restaurant search app.",

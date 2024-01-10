@@ -41,7 +41,7 @@ function Work() {
 
         <Link
           className="border-none block text-center px-3 py-2 rounded-md bg-bg-color-2 text-text-color-1 transition duration-300 hover:bg-bg-color-3"
-          href="https://drive.google.com/file/d/1GFuObrzpI3Oh7RCdATUXfIZ-bYFsIfnE/view"
+          href="https://drive.google.com/file/d/1N_VTMrryd_3M1hhXmzg1J7Q120z6tUQ1/view"
           target="_blank"
         >
           Download resume

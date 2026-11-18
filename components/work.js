@@ -3,13 +3,19 @@ import { CiDesktop } from "react-icons/ci";
 
 const workData = [
   {
+    title: "Software Engineer",
+    company: "Shopify",
+    place: "Toronto, Canada",
+    date: "May 2024 - November 2026",
+  },
+  {
     title: "Full Stack Developer",
     company: "CodeBusters",
     place: "Toronto, Canada",
     date: "June 2022 - July 2023",
   },
   {
-    title: "System Engineer",
+    title: "Systems Engineer",
     company: "Hewlett Packard Enterprise",
     place: "Tokyo, Japan",
     date: "April 2017 - January 2021",
@@ -30,7 +36,7 @@ function Work() {
               <p className="text-sm mb-0.5">{item.title}</p>
               <div className="flex flex-col sm:flex-row sm:justify-between text-text-color-3 text-xs">
                 <p className="sm:mr-6">{item.company}</p>
-                <div className="text-end">
+                <div className="text-end -mt-2">
                   <p>{item.place}</p>
                   <p>{item.date}</p>
                 </div>
@@ -41,7 +47,7 @@ function Work() {
 
         <Link
           className="border-none block text-center px-3 py-2 rounded-md bg-bg-color-2 text-text-color-1 transition duration-300 hover:bg-bg-color-3"
-          href="https://drive.google.com/file/d/1N_VTMrryd_3M1hhXmzg1J7Q120z6tUQ1/view"
+          href="https://drive.google.com/file/d/1_vi05cfE4_frW3vc4CXpZr-CHKUOOPBF/view"
           target="_blank"
         >
           Download resume

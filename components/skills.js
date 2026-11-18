@@ -6,7 +6,7 @@ import {
   FaNodeJs,
   FaGit,
 } from "react-icons/fa";
-import { DiJavascript1, DiMongodb } from "react-icons/di";
+import { DiMongodb } from "react-icons/di";
 import {
   SiNextdotjs,
   SiFirebase,
@@ -17,6 +17,8 @@ import {
   SiGraphql,
   SiJest,
   SiTestinglibrary,
+  SiJavascript,
+  SiTypescript,
 } from "react-icons/si";
 
 const skills = [
@@ -27,7 +29,13 @@ const skills = [
   {
     name: "JavaScript",
     icon: (
-      <DiJavascript1 className="h-4 w-4 md:h-5 md:w-5 text-accent-color-2" />
+      <SiJavascript className="h-4 w-4 md:h-5 md:w-5 text-accent-color-2" />
+    ),
+  },
+  {
+    name: "TypeScript",
+    icon: (
+      <SiTypescript className="h-4 w-4 md:h-5 md:w-5 text-accent-color-2" />
     ),
   },
   {

@@ -29,12 +29,12 @@ function about() {
             programming.
           </p>
           <p>
-            I taught myself programming from scratch using some awesome Udemy
-            courses, YouTube videos and tons of googling. I fell in love with
-            programming quickly and I knew pursuing this passion was the right
-            choice. I had ZERO knowledge about HTML and CSS, so I remember how
-            excited I was when I first rendered &quot;Hello World!&quot; using
-            HTML and designed with CSS.
+            I taught myself programming from scratch using Udemy courses,
+            YouTube videos and tons of googling. I fell in love with programming
+            quickly and I knew pursuing this passion was the right choice. I had
+            ZERO knowledge about HTML and CSS, so I remember how excited I was
+            when I first rendered &quot;Hello World!&quot; using HTML and
+            designed with CSS.
           </p>
           <p>
             I&apos;m a hardworker, ambitious and coorporative. I always strive
